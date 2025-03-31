@@ -23,9 +23,11 @@ const Navbar = () => {
               <a href="#">GitHub</a>
             </li>
           </ul>
-          <button className="bg-blue-500 pl-4 pr-4 pt-2 pb-2 text-white font-semibold rounded-md bg-gradient-to-b">
-            Sign up
-          </button>
+          <a href="#">
+            <button className="bg-blue-500 pl-4 pr-4 pt-2 pb-2 text-white font-semibold rounded-md bg-gradient-to-b">
+              Sign up
+            </button>
+          </a>
         </nav>
       </header>
     </>
