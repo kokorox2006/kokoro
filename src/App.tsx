@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar.tsx";
 import React from "react";
 
 const App = () => {
   return (
     <>
-      <h1>App Page</h1>
+      <Navbar></Navbar>
     </>
   );
 };
